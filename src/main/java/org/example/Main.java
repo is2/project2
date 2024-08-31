@@ -6,8 +6,6 @@ import org.example.model.User;
 import org.example.service.UserService;
 import org.example.service.UserServiceImpl;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         UserDao userDao = new UserHibernateDaoImpl();
